@@ -7,6 +7,27 @@ This repository contains my micro-projects for learning how to code in
 [travis-url]: https://travis-ci.org/frickiericker/learn-go
 [golang]: https://golang.org
 
+## Code organization
+
+Assuming default environment setting (GOPATH=~/go), repository root should be
+located at:
+
+    ~/go/src/github.com/frickiericker/learn-go
+
+Then micro-projects are laid out as follows:
+
+    ~/go/src/github.com/frickiericker/learn-go/00-hello
+    ~/go/src/github.com/frickiericker/learn-go/01-package
+    ...
+    ~/go/src/github.com/frickiericker/learn-go/NN-name
+
+To run 00-hello for example:
+
+    % cd ~/go/src/github.com/frickiericker/learn-go/00-hello
+    % go test
+    % go build
+    % ./00-hello
+
 ## Reading materials
 
 ### Documentations
