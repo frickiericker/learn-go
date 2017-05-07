@@ -38,5 +38,7 @@ project it is equivalent to
 ## Documentation
 
     % go doc hello.MakeMessage
+    package hello // import "github.com/frickiericker/learn-go/01-package/hello"
+    
     func MakeMessage() string
         MakeMessage creates a greeting message.
