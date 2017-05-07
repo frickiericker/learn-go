@@ -42,6 +42,10 @@ To run 00-hello for example:
 - https://github.com/golang/go/wiki/CodeReviewComments
 - https://golang.org/doc/code.html#Organization
 
+### Random resources
+
+- [Go by Example](https://gobyexample.com)
+
 ### Code to read
 
 - https://github.com/golang/go
