@@ -1,4 +1,4 @@
-package hello
+package main
 
 // MakeMessage creates a greeting message.
 func MakeMessage() string {
