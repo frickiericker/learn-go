@@ -1,4 +1,7 @@
-My attempt on learning golang.
+[![Build Status][travis-badge]][travis-url]
+
+[travis-badge]: https://travis-ci.org/frickiericker/learn-go.svg?branch=master
+[travis-url]: https://travis-ci.org/frickiericker/learn-go
 
 ## Reading materials
 
