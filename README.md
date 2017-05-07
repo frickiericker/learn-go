@@ -9,9 +9,10 @@ My attempt on learning golang.
 - [Standard library](https://golang.org/pkg)
 - [FAQ](https://golang.org/doc/faq)
 
-### Style
+### Style & code organization
 
 - https://github.com/golang/go/wiki/CodeReviewComments
+- https://golang.org/doc/code.html#Organization
 
 ### Code to read
 
