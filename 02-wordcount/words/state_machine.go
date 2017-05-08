@@ -28,6 +28,7 @@ func makeTransitionTable() [3][3]scannerState {
 	table[inWord][endOfInput] = exitWord
 
 	table[exitWord][nonWordRune] = nonWord
+	table[exitWord][wordRune] = inWord
 	table[exitWord][endOfInput] = nonWord
 
 	return table
