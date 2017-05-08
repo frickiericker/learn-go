@@ -5,7 +5,7 @@ import (
 	"io/ioutil"
 	"os"
 
-    "github.com/frickiericker/learn-go/02-wordcount/words"
+	"github.com/frickiericker/learn-go/02-wordcount/words"
 )
 
 func main() {
