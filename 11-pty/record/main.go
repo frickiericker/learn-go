@@ -102,7 +102,7 @@ func (rec *Recorder) runLoop() error {
 			}
 			dataChan <- buffer[:size]
 		}
-	}
+	}()
 
 	signalChan := make(chan os.Signal)
 	signal.Notify(signalChan, os.Interrupt)
