@@ -74,5 +74,8 @@ func benchmark(writer io.Writer, benchSize int) (time.Duration, error) {
 			return 0, err
 		}
 	}
+	if buf, buffered := writer.(*bufio.Writer); buffered {
+		buf.Flush()
+	}
 	return time.Since(start), nil
 }
